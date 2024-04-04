@@ -1,10 +1,10 @@
-/*
+/**
 -Output to Screen
 --Window.alert();
 --document.write();
 --console.log(); 
-*/ 
 // window.alert('hello wrold! ');
+*/
 document.write("<h2>Hello world !</h2>");
 console.log('hello World !')
 /*

@@ -1,4 +1,4 @@
-/*
+/**
 ---Variables Intro 
 --what is varibale 
 --why we use Variables 
@@ -6,9 +6,8 @@
 --Identifiers
 --Name Convention And Rules
 --JavaScript is a case-sensitive language
-*/ 
-//================================================//
-/*
+*/
+/**
 -------Var-------------------------------- 
 --Redeclare (Yes Without message d error)
 --Access Before Declare(Undefined)

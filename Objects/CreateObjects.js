@@ -56,8 +56,10 @@ target object.===============================================
 =============================================================
 */ 
 // FinalObject
-let FO=Object.assign(TO3,O1,O2);
+let FO=Object.assign(TO3,O2);
 console.log(FO)
+let FO1=Object.assign(TO3,O1);
+console.log(FO1);
 
 
 

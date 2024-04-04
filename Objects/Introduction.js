@@ -1,4 +1,4 @@
-/*
+/**
 ---Object 
 ---Intro And what Is Object 
 ---Testing Window Object 
@@ -7,14 +7,14 @@
 let user ={
     // Propertie 
     TheName:'user00😁',
-    userAge:00,
+    userAge:20,
     // Methodes
     GoogMorning:()=>{
         return `GoogMorning ${user.TheName} Your Age Is ${user.userAge}`
     }
 };
 console.log(user.GoogMorning())
-/*
+/**
 ====================================
 ==Dot Notation vs Bracket Notation==
 ====================================

@@ -1,4 +1,4 @@
-/*
+/**
 ---Arrays Mathods [Adding And Removing]
 ---unshift("","") Add Element To the First 
 ---push("","") Add Eelemnt to The End 
@@ -19,7 +19,7 @@ console.log((userList));
 //[4]pop():Removes the last element from an array and returns it.
 let LastUser=userList.pop()
 console.log(LastUser);
-/*
+/**
 ---Searching-Array---
 -----indexOf(Search Element , From Index [Opt])
 -----LastIndexOf(Search Element< From Index[opt])
@@ -28,7 +28,7 @@ console.log(LastUser);
 let Colors=['Gray','Yellow','white','Blue','Orange'];
 console.log(Colors.indexOf('white',2))//2 if Note existe returne -1
 console.log(Colors.includes('Blue'))
-/*
+/**
 ----Sorting Arrays------
 A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure
 --sort methode accepte the compareFnction
@@ -37,7 +37,7 @@ let Data=[10,'teste_1',-20,'teste_2',30,1000,'beta','Lorem',5,-102,3000,56]
 console.log(Data.sort())
 //[-102, -20, 10, 1000, 30, 3000, 5, 56, 'Lorem', 'beta', 'teste_1', 'teste_2']
 console.log(Data.reverse())//sorting Array Are reversed 
-/*
+/**
 Array Methods [Slicing]
 ---slice(Start[Opt],End[Opt] Not Including End Return New Array )
 ---slice()=>All Array
@@ -56,7 +56,7 @@ console.log(P)
 let N=['N1','N2','N3','N4','N5','N6','N7','N8'];
 console.log(N.splice(-1,4,'N9'));//the copy part of the array 
 console.log(N)// the orginal Array
-/*
+/**
 --Array Methods [Joining]--
 ---Concat(array,array)===> Returne A New Array 
 ---Join(Separator) <> splite()

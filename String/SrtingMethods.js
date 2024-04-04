@@ -1,4 +1,4 @@
-/*
+/**
 --String Methods Part_1
 --Access With Index 
 --Access With CharAt()
@@ -23,7 +23,7 @@ console.log(T.length)
 // After trime 
 console.log(T_trime)
 let user_3='user_3';
-/*
+/**
 -----String Methods Part_2----
 [Mad]==[mandatory] | [Opt]==[optional]
 ----indexOf(Value[Mand],Start[Opt])
@@ -47,7 +47,7 @@ console.log(str_2.slice(-5,-2))
 console.log('Lorem'.repeat(10));
 // split
 console.log(str_2.split("",5))
-/*
+/**
 -----String Methods Part_3----
 ---substring(Start[Mand],End[OPt]Not Including End)---
 --- if Start position > End Then Will Swap numbers <> Slice
