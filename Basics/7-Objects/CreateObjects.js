@@ -14,7 +14,7 @@ let newObj=new Object({userName:'userName'});
 /*--------Create Object With Create Method---------*/ 
 let user01={
     userName:'user',
-    userAge:01,
+    userAge:1,
     //methods 
     F1:function(){
         return this.userAge + 2;

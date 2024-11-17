@@ -21,7 +21,7 @@ let V=document.getElementsByClassName('btn')[0];
 V.onclick=function(){
 console.log(this)
 }
-"use strict";
+
 let F2=function(){
     console.log(this)
 }

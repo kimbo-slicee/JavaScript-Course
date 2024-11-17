@@ -1,7 +1,7 @@
 /*
 --Data Type Intro
 --String
---Number
+--4-Number
 --Array => Object 
 --Object
 --boolean

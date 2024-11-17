@@ -1,7 +1,7 @@
 /*
 ---function  
 --What Is Function ? 
---User-Defined Vs Built In Functions 
+--User-Defined Vs Built In 10-Functions
 --Syntax + Basics Usage 
 --Parameter + Argument 
 --Practical example 

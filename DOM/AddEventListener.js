@@ -7,8 +7,7 @@ DOM[Add Event Listener]
 ---Search 
 ---Capture & Bubbling JavaScript 
 ---Remove
-DV-2025 Submission Confirmation//D7540F358D8AC270C3B206FCF31C1BC89416BA8C
-*/ 
+*/
 
 /*
 ele.addEventListener('eventName',fuction or object )

@@ -1,13 +1,13 @@
 /*
----Number---
+---4-Number---
 ---Double Precision For serch----
 ---syntactic Sugar "_"
 --- e 
 --- ** 
 --- withe Decimal
---- Number + BigInt
---- Number Min Value
---- Number Max Value 
+--- 4-Number + BigInt
+--- 4-Number Min Value
+--- 4-Number Max Value
 */ 
 console.log(1000000);
 console.log(1_000_000);
@@ -16,7 +16,7 @@ console.log(10**6);
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MAX_VALUE)
 /*
-----Number Methods----
+----4-Number Methods----
 --two Dots To Call A Methods
 --toString();
 --toFixed();

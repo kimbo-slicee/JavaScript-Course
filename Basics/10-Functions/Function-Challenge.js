@@ -5,7 +5,7 @@ Function-Randome Argument Challenge [1]
 --Function Accept 3 Parameters [a,b,c]
 --Data Types For info is 
 --String => Name 
---Number => Age 
+--4-Number => Age
 --Boolean => Status 
 -Argument Is Random
 -Data Is Note Sorted Output depend On Data Types

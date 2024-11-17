@@ -15,10 +15,7 @@ let user ={
 };
 console.log(user.GoogMorning())
 /**
-====================================
-==Dot Notation vs Bracket Notation==
-====================================
----------------------------------------------
+ - Dot Notation vs Bracket Notation
 ---------------------------------------------Note---------------------------------------------------
 The main factor that will help you make your decision is the key of the property you want to access-
 If it is a static key, use Dot Notation.------------------------------------------------------------

@@ -1,5 +1,5 @@
 /*
----Higher Order Functions Challenge 
+---Higher Order 10-Functions Challenge
 
 You Can Use
 --- , 

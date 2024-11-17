@@ -2,7 +2,7 @@
 --String Methods Part_1
 --Access With Index 
 --Access With CharAt()
---Lenght 
+--Length
 --Trim()
 --toUpperCase()
 --ToLowercase()
@@ -52,21 +52,21 @@ console.log(str_2.split("",5))
 ---substring(Start[Mand],End[OPt]Not Including End)---
 --- if Start position > End Then Will Swap numbers <> Slice
 ---Start < 0 It Start From 0
----Use Lenght To Get Last Character
+---Use Length To Get Last Character
 --substr(start[Mand],Characters To Extract)
---Satrt >= Lenght = ""
+--Start >= Length = ""
 --Negative Start From End 
 --includes(Value[Mand] , Start[Opt] Default 0)[Es6]
---startwith(Value[Mand],Start[OPt] Default 0)[Es6]
---endswith(value[Mand],lenght[Opt] Default Full Lenght) 
+--startWith(Value[Mand],Start[OPt] Default 0)[Es6]
+--endsWith(value[Mand],lenght[Opt] Default Full Length)
 */ 
-var Str_3='userName@gmail.com';
+let Str_3='userName@gmail.com';
 console.log(Str_3.substring(0,8))
 console.log(Str_3.substring(8,0))//start>End
 console.log(Str_3.substring(-8,8))//start>End
 console.log(Str_3.substring(Str_3.length-10));
 //substr
-console.log(Str_3.substr(0,2));// the secend value is number of characters to extract 
+console.log(Str_3.substr(0,2));// the second value is number of characters to extract
 // includes
 let Str_4 ='userName';
 console.log(Str_4.includes('Name'));

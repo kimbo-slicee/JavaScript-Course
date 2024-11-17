@@ -20,7 +20,7 @@ let E2=Numbers.filter(ele=>ele%2===0)
 console.log(E2)
 /*
 ----------Filter------------
----Filter Longest Word By Number  
+---Filter Longest Word By 4-Number
 */ 
 //Filter Word More Than $ Characters 
 let santence='I love Foood Code Too Playing Much ';

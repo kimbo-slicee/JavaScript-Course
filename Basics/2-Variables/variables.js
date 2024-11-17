@@ -1,6 +1,6 @@
 /**
 ---Variables Intro 
---what is varibale 
+--what is variable
 --why we use Variables 
 --loosely Typed (JavaScript) vs Strongly Typed 
 --Identifiers
