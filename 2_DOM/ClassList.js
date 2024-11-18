@@ -1,5 +1,5 @@
 /*
-DOM[Class list]
+2_DOM[Class list]
 ---ClassList
 ---Length
 ---contains

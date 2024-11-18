@@ -1,5 +1,5 @@
 /*
----DOM[Cloning]
+---2_DOM[Cloning]
 ---CloneNode(Deep)
 */ 
 let Pargraph=document.getElementById('Para');

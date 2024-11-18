@@ -13,7 +13,7 @@ let x=10
 if(true){
 console.log(`form if Block ${x}`)
 let x=20
-// output == error
+// 11-output == error
 }
 console.log(`form local ${x}scope `);
 /*

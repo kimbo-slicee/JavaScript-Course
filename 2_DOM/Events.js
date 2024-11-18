@@ -1,5 +1,5 @@
 /*
-DOM[Eevents]
+2_DOM[Eevents]
 ---Use Events On HTML 
 ----Use Events ON Js 
 -----onclick 
@@ -34,7 +34,7 @@ document.getElementsByTagName('input')[2].onfocus=()=>{
 }
 /*
 ----------Event-Simulation----------
----DOM[Events Simulation]
+---2_DOM[Events Simulation]
 ---Click
 ---Focus
 ---Blur

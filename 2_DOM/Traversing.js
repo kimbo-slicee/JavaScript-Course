@@ -1,5 +1,5 @@
 /*
-DOM[Traversing]
+2_DOM[Traversing]
 ---nextSibling 
 ---PreviousSibling 
 ---nextElementSibling

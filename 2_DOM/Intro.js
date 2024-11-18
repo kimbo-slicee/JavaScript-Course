@@ -1,7 +1,7 @@
 /**
---DOM---------------------------------
----What Is DOM ?----------------------
-----DOM Selectors---------------------
+--2_DOM---------------------------------
+---What Is 2_DOM ?----------------------
+----2_DOM Selectors---------------------
 -----Find Element By ID---------------
 ------Find Eelement By Tag Name-------
 -------Find element By css Selectors--
@@ -23,7 +23,7 @@ let qeuryslector=document.querySelector('.my-span')
 console.log(document.title)
 console.log(document.body)
 /*
----------DOM[Get/Set Elements Content And Attributes]--------
+---------2_DOM[Get/Set Elements Content And Attributes]--------
 ----innerHTML
 ----textContent
 -----Change Attributes Directly
@@ -43,7 +43,7 @@ console.log(document.images)
 document.links[0].href='#';
 let mydiv=document.querySelector('img').setAttribute('className','teste')
 /*
---------DOM[Check Attributes]----------
+--------2_DOM[Check Attributes]----------
 ----------Element.Attributes-----------
 ----------Element.hasAttribute('NameOfAttr')---------
 ----------Element.hasAttributes---------returne boolean 
@@ -84,7 +84,7 @@ div_1.appendChild(comment01);
 console.log(div_1)
 document.write(`<hr>`)
 /*
-DOM[Practice Product With Heading And Paragraph]
+2_DOM[Practice Product With Heading And Paragraph]
 */
 
 
@@ -105,7 +105,7 @@ let teste =document.body.appendChild(div_2)
 // }
 document.write(`<hr>`);
 /*
-------------DOM[Deal With Childrens]------
+------------2_DOM[Deal With Childrens]------
 --Children--------------------------------
 ---ChildNodes-----------------------------
 ----firstChild----------------------------
@@ -119,7 +119,7 @@ console.log(div3.childNodes);
 console.log(div3.firstChild);
 console.log(div3.firstElementChild);
 /*
---------DOM[Deal With Elements]----------
+--------2_DOM[Deal With Elements]----------
 ----before[Element|| string ]
 ----After[Element || String ]
 ----Append[Element || String] // in the end of element 

@@ -1,5 +1,5 @@
 /*
----DOM[Css]
+---2_DOM[Css]
 --style
 --cssText
 --removeProperty(PropertyName)[inline,Stylesheet]

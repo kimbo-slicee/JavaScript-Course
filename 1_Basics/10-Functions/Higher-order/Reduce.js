@@ -1,7 +1,7 @@
 /*
 ---Reduce 
 ---Method Executes a reducer Function On Each element Of The Array 
----Resulting in a Single output Value 
+---Resulting in a Single 11-output Value
 
 Syntax 
 --Reduce(CallBackfunction(Accumulated,Current Value ,Current Index Source Array){},initialValue)
