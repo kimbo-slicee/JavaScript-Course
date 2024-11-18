@@ -1,9 +1,9 @@
-/*
-* Output To Screen
-* ---- window.alert()
-* ---- document.writ()
-* ---- console.log()
-* */
+/**
+ Output To Screen
+- window.alert()
+- document.writ()
+- console.log()
+ */
 window.alert("Hello World !");
 window.confirm("are you sure u want learn javaScript");
 window.document.writeln("<h1>Hello Js Community</h1>")
@@ -29,3 +29,21 @@ if (name) {
  *
  *
  * */
+// Example: Combining Output Methods
+
+// Console output
+console.log("Logging to the console");
+
+// Window output
+alert("Alert example");
+const name = prompt("What is your name?");
+console.log("Your name is: " + name);
+
+// Document output
+document.write("<h1>Hello, " + name + "!</h1>");
+document.getElementById("output").innerText = "Welcome, " + name;
+
+// DOM Manipulation
+const para = document.createElement("p");
+para.textContent = "This is dynamically added!";
+document.body.appendChild(para);

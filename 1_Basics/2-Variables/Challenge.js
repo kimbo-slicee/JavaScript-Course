@@ -1,4 +1,4 @@
-var MainTitle='Mohammed',
+var MainTitle='UserName',
     MainDesc='jinur full stack Web developer',
     MainDate='25/10';
     var div=`<div class="Card">
