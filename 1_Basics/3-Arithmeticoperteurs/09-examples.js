@@ -13,7 +13,7 @@ console.log(10 + 20)
 console.log(10 + 'User')//=>concatenation
 console.log(10 -20);
 console.log(10-'userName')//=>Nan(not a 4-Number)
-console.log(typeof NaN)// ==> 4-Number
+console.log(typeof NaN)// ==> Number
 let num=1;
 // Post Increment num++
 num++
