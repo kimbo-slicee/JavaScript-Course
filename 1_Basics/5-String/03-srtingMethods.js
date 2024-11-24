@@ -7,7 +7,8 @@
 --toUpperCase()
 --ToLowercase()
 --Chain Methods
-*/ 
+*/
+
 let TheName='User_1';
 //access withe Index 
 console.log(TheName[1])// s
