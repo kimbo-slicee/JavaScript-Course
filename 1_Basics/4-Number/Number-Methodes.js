@@ -1,6 +1,6 @@
 /*
 ---4-Number---
----Double Precision For serch----
+---Double Precision For search----
 ---syntactic Sugar "_"
 --- e 
 --- ** 
@@ -35,8 +35,8 @@ console.log(parseInt('89.8user'));
 console.log(Number.isInteger(100.20))// False 
 console.log(Number.isNaN('NaN'));
 /*
-----------------MathObject-------------=
------------Oberation-of-Math-----------=
+----------------Math Object-------------
+-----------Operation-of-Math------------
 --round();
 --cell();
 --floor();
