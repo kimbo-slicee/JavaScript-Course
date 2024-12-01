@@ -1,5 +1,5 @@
 /**
---String Methods Part_1
+--String Methods
 --Access With Index 
 --Access With CharAt()
 --Length
@@ -14,14 +14,14 @@ let TheName='User_1';
 console.log(TheName[1])// s
 //end we can use 
 console.log(TheName.charAt(1))
-// lenght 
+// length
 console.log(TheName.length)//  
 let T='  user_2 ';
-//lenght before Trim method
+//length before Trim method
 console.log(T.length)
-//Trime 
+//Trime
  let T_trime=T.trim().length// end chen methode
-// After trime 
+// After trime
 console.log(T_trime)
 let user_3='user_3';
 /**
@@ -59,21 +59,43 @@ console.log(str_2.split("",5))
 --Negative Start From End 
 --includes(Value[Mand] , Start[Opt] Default 0)[Es6]
 --startWith(Value[Mand],Start[OPt] Default 0)[Es6]
---endsWith(value[Mand],lenght[Opt] Default Full Length)
-*/ 
-let Str_3='userName@gmail.com';
-console.log(Str_3.substring(0,8))
-console.log(Str_3.substring(8,0))//start>End
-console.log(Str_3.substring(-8,8))//start>End
-console.log(Str_3.substring(Str_3.length-10));
+--endsWith(value[Mand],end[Opt] Default Full Length)
+*/
 //substr
+
+// substring Examples
+let Str_3='userName@gmail.com';
+let str="Learn JavaScript";
+console.log(Str_3.substring(0,8))
+console.log(Str_3.substring(8,0))//if the start bigger then the end substring will reverse the inputs so in
+// this Example SubString Will start from index 0 to index 7 bcs the function not including the end
+console.log(Str_3.substring(-8,8))//if the start is negative input that's tell the function to start from index zero
+console.log(Str_3.substring(Str_3.length-10));
+console.log(str.substring(0,10));//Learn Java:but now we Learn JS haha
+console.log(str.substring(0,str.length));
+let newStr=str.substring(-10,str.length);// in subString we start withe negative value that's will start form index 0
+console.log(newStr)
+//Important Note:
+// The slice function can start counting even if the input is a negative value, whereas the substring function accepts only positive values.
+// substr Example
 console.log(Str_3.substr(0,2));// the second value is number of characters to extract
+let substrVariable="Extra Perfect Numbers";
+console.log(substrVariable.substr())// important note guys: that's the Substr function it's now Deprecated
+//that's mean  This feature is no longer recommended. Though some browsers might still support it.
+const aString = "Mozilla";
+console.log(aString.substr(0, 1)); // 'M'
+console.log(aString.substr(1, 0)); // ''
+console.log(aString.substr(-1, 1)); // 'a'
+console.log(aString.substr(1, -1)); // ''
+console.log(aString.substr(-3)); // 'lla'
+console.log(aString.substr(1)); // 'ozilla'
+console.log(aString.substr(-20, 2)); // 'Mo'
+console.log(aString.substr(20, 2)); // ''
 // includes
 let Str_4 ='userName';
 console.log(Str_4.includes('Name'));
 //endswith
 console.log(Str_3.endsWith('.',15));
-
 
 
 

@@ -1,3 +1,7 @@
+<div align="center">
+<img src="../../images/JavaScript-Number-Methods.avif">
+</div>
+
 ### Number Data Type in JS 
 In JavaScript, numbers are one of the fundamental data types. They can be integers, floating-point numbers, or 
 special numeric values like Infinity and NaN (Not-a-Number). JavaScript numbers are always stored as 64-bit 
@@ -22,3 +26,5 @@ let float = 3.14; // Floating-point number
 let negative = -7; // Negative number
 let largeNumber = 1.23e5; // Scientific notation (123000)
 ```
+### Conclusion
+By using these methods and the Math object effectively, you can handle a wide range of numeric computations in JavaScript. 
