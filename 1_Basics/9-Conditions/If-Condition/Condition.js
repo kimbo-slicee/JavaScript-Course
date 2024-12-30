@@ -13,12 +13,9 @@ if(Condition){
     // Bock of Code 
 }
 */
-let CarName='Volkswagen',
-CarModel='Touareg',
-CarColor='Black',
-Interior_color='Red',
+let CarName='Volkswagen', CarModel='Tuareg', CarColor='Black', Interior_color='Red',
 Engine='Electric',
-SaftyMode=true,
+SafetyMode=true,
 discountAmount=30,
 discount=false,
 country='Morocco',
@@ -36,7 +33,7 @@ if(CarName==='Volkswagen' && CarModel==='Touareg'){
             Prix=Prix
         }
     }
-    if(SaftyMode===true){
+    if(SafetyMode===true){
         Prix+=2099
     }
     if(country==='Morocco'){
@@ -58,7 +55,7 @@ if(CarName==='Volkswagen' && CarModel==='Touareg'){
 */ 
 /*
 ------Conditional(Ternary)Operator
----Syntax [condtion?if true :If False ]
+---Syntax [condition?if true :If False ]
 */ 
 let userName='user',TheGender='Male',TheAge=25;
 //TheGender==='Male'?console.log('Mr'):console.log('Mrs');

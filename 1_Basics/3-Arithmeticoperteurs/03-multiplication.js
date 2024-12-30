@@ -14,3 +14,4 @@ let radius=10;
 let height=100;
 let surface=2*Math.PI*radius*height+2*Math.PI*radius*Math.exp(2);
 console.log(surface);
+console.log(true*false);//false
