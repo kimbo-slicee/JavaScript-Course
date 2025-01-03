@@ -7,7 +7,7 @@
 --Else--
 --else--
 if(Condition){
-    // Bolck Of code 
+    // Block Of code
 
 }else{
     // Bock of Code 

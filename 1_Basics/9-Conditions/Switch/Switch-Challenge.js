@@ -1,7 +1,7 @@
 /*
 ----switch--Challenge 
 */ 
-//[1]:If To Switch
+//[1]:transform if to switch
 let job ='Developer';
 let Salary=0;
 if(job==='Manager'){
@@ -42,7 +42,7 @@ let hoidays=0,money=0
 switch(hoidays){
     case 0:
         money=5000
-        console.log(`my mony is ${money}`)
+        console.log(`my money is ${money}`)
         break;
     case 1:
     case 2:
@@ -61,10 +61,10 @@ switch(hoidays){
         money=0;
         console.log(`My Money ${money}`)
 }
-// If conditon 
+// If condition
 if(hoidays===0){
     money=5000
-        console.log(`my mony is ${money}`)
+        console.log(`my money is ${money}`)
 }else if(hoidays===1 || hoidays===2){
     money=3000
     console.log(`my Money is ${money}`);
@@ -73,15 +73,11 @@ if(hoidays===0){
     console.log(`my Money is ${money}`)
 }else if(hoidays===5){
     money=500;
-    console,log(`my Money is ${money}`)
+    console.log(`my Money is ${money}`)
 }else{
     money=0;
     console.log(`My Money ${money}`)
 }
-
-
-
-
 
 
 

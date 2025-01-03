@@ -1,9 +1,9 @@
 /*
 --Comparison Operators
--- == Equal
--- !== Not Equal
+-- == Equal [ONLY VALUE]
+-- !== Not Equal [NOT VALUE]
 
--- === Identical
+-- === Identical [Value And Data Type]
 -- !== Not Identical
 
 -- > Larger Than
@@ -20,3 +20,9 @@ console.log('10' !== 10 )// True | Same Value But not The Same Type
 console.log(10>=10)// true  |bigger {or} equal
 console.log( typeof'user_1'=== typeof'user_2')//False or True ?
 console.log(NaN===NaN);//If true explain and If False explain ??
+console.log(10>10)//False
+console.log(10>=10)//True
+console.log(10<10)//False
+console.log(10<=10)//True
+console.log(10!=10)//False
+console.log(10!==10)//False

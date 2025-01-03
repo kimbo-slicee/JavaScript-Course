@@ -1,5 +1,5 @@
 /*
----Switch Statemnt 
+---Switch Statement
 ----switch(expression){
 ---Case 1:
 // block of code 
