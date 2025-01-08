@@ -37,7 +37,7 @@ switch(job){
 /*
 ----If_challenge
 */ 
-//[2]:Switch To If 
+//[2]:2-Switch To If
 let hoidays=0,money=0
 switch(hoidays){
     case 0:

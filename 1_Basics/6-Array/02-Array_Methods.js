@@ -10,8 +10,8 @@
  * Includes--> checks if an element is present in the array
  * Sort--------> sorts the array
  * Reverse-----> reverses the array
- * Slice-------> returns a portion of the array
- * Splice------> adds or removes elements from the array
+ * Slice-------> returns a portion of the array // Shallow Copy
+ * Splice------> adds or removes elements from the array // Deep Copy
  * Concat----> merges two or more arrays
  * join-------> joins all the elements of an array into a string
  */
