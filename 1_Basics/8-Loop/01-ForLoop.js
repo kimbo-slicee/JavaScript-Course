@@ -7,6 +7,9 @@
 // for([1];[2];[3]){
 // // Block Of Code
 // }
+// for (initialization; condition; increment/decrement) {
+//     // Code to be executed
+// }
 // */
 // Example
 let users=["user_1","user_2","user_3","user_4","user_5"]
@@ -31,9 +34,6 @@ for(let i=0;i<productsList.length;i++){
         document.write(`<p>${colors[i]}</p>`)
     }
 }
-// Select Years 1990-2025 (advanced Example)
-// Create a div element and append it to the body
-// Create a div element and append it to the body
 const div = document.createElement("div");
 document.body.append(div);
 
