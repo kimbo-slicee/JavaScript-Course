@@ -1,0 +1,82 @@
+:root{
+    --green:#16C47F;
+    --mint:#7BD3EA;
+    --yellow:#FFD65A;
+    --red:#F93827;
+    --orange:#FF9D23
+}
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+}
+body{
+    position: relative;
+    font-family: "Arabic Typesetting",sans-serif;
+    font-size: x-large;
+    caret-color: transparent;
+}
+nav{
+    margin: 2em;
+    padding: .5em;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+li.active{
+
+}
+div{
+    width: 20vw;
+    height: 5em;
+    background: #7BD3EA;
+    transform: translatex(-100%);
+    position: relative;
+    transition: all 3s ease;
+}
+div.active{
+    transform: translatex(0%);
+}
+.green{
+    background-color:var(--green) ;
+
+}
+.mint{
+    background-color: var(--mint);
+}
+.orange{
+    background-color: var(--orange);
+}
+.yellow{
+    background-color: var(--yellow);
+}
+div:before{
+    content: "";
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    right: -30px;
+    top: 15%;
+    bottom:50%;
+    background: inherit;
+    cursor: pointer;
+    -moz-border-radius-topright:50% ;
+
+
+}
+.mint:before{
+    right: -25px;
+}
+.orange:before{
+    right: -20px;
+}
+.yellow:before{
+    right:  -15px;
+}

@@ -7,8 +7,6 @@
 * Rest
 * condition
 * */
-
-
 /*
 * Let's try show an product (T-shirt, for Example) Information in our web Site
 * we Have the name of product color price category sizes discount delivery
