@@ -13,5 +13,9 @@
 const say_Hello=(name)=>{
     return `Hello ${name}`
 }
-say_Hello("me")
+say_Hello("me");
+const getThis=()=>{
+    console.log(this)
+}
+getThis();// {} but this in the global context is the window or Global(Node.js)
 

@@ -1,4 +1,8 @@
-# Objects
+<p align="center">
+<img src="../../images/javaScript-Object.png" alt="JavaScript Object">
+</p>
+
+## JavaScript Objects
 As we know from the chapter [!Data Types](../1-DataTypes), there are eight data types in JavaScript. Seven of them 
 are 
 called “primitive”, because their values contain only a single thing (be it a string or a number or whatever).
