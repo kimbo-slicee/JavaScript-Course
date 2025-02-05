@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Elements</title>
+    <script src="01-Intro.js" defer></script>
+    <script src="02-Select-DOM-Elements.js" defer></script>
+    <script src="03-Get-Set-Content.js" defer></script>
+    <script src="04-Check-Attributes.js" defer></script>
+    <script src="05-Create-And-Append.js" defer></script>
 </head>
 <body>
     <header class="Header">
-        <div class="Logo"></div>
+        <div class="logo"></div>
     </header>
-    <div class="container">
-        <h1>Hello In JavaScript Course</h1>
-        <form class="">
-            <label>Full Name</label>
-            <input type="text" placeholder="Full Name">
-            <label>school</label>
-            <input type="text" placeholder="School Name">
-            <button type="submit">Enter</button>
+    <div class="container" >
+        <h1 class="Heading" id="Home">Hello In JavaScript Course</h1>
+        <form class="First Form" id="Form-1" style="display: flex; flex-direction: column;">
+            <div class="container data-form">
+                <label>Full Name</label>
+                <input type="text" placeholder="Full Name">
+                <label>school</label>
+                <input type="text" placeholder="School Name">
+                <button type="submit">Enter</button>
+            </div>
+            <div class="container links">
+               <button><a href="https://www.google.com/">subscribe with Google Account</a></button>
+               <button><a href="https://www.facebook.com/">subscribe with FaceBook Account</a></button>
+            </div>
         </form>
-            <a href="https://www.google.com/">Go To Google Account</a>
-            <a href="https://www.facebook.com/">Go To Google Account</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Mus mauris vitae ultricies leo integer malesuada. Pharetra pharetra massa massa ultricies.
+            Congue nisi vitae suscipit tellus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Nam aliquam
+            sem et tortor consequat id porta. Quam quisque id diam vel. Donec massa sapien faucibus et molestie. Sed
+            odio morbi quis commodo odio aenean sed. Amet est placerat in egestas erat.</p>
     </div>
 </body>
 </html>
