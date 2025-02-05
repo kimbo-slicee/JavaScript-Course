@@ -29,6 +29,6 @@ const printUserData=(name,age)=>{
 }
 calculateRectangleArea(w,l)// 12000
 printUserData(name,age);// Hello me ur age is 1
-// important Note : if u check the output u will know that's the function (calculateRectangleArea,printUserData)
-// access immediately to the global scope and ignore the block scope why ?
+/** important Note : if u check the output u will know that's the function (calculateRectangleArea,printUserData)
+ access immediately to the global scope and ignore the block scope why ? */
 
