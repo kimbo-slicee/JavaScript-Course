@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Children's And Siblings </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="02-Traversing.js" defer></script>
+    </head>
+    <body>
+
+    <div class="categories">
+        <div>
+            <input type="radio" id="Parents" name="ele" value="Parents">
+            <label for="Parents">Parents 👨</label>
+        </div>
+
+        <div>
+            <input type="radio" id="children" name="ele" value="children">
+            <label for="children">children 👱‍♂️👱‍♂️</label>
+        </div>
+
+        <div>
+            <input type="radio" id="siblings" name="ele" value="siblings">
+            <label for="siblings">siblings 👨‍👩‍👧‍👦</label>
+        </div>
+    </div>
+        <div class="container">
+                <!--let's create DOM tree withe Html and css-->
+                    <div class="tree">
+                       <ul class="tree-head">
+                           <li class="document">
+                               <a href="#">document</a>
+                                <ul class="html">
+                                    <li class="html">
+                                        <a href="#">html</a>
+                                        <span class="line"></span>
+                                        <ul class="dom-elements">
+                                            <li class="head">
+                                                <a href="#">head</a>
+                                                <ul class="head-elements">
+                                                    <li> <a href="#">Links</a></li>
+                                                    <li><a href="#">title</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="body">
+                                                <a href="#">body</a>
+                                                 <ul class="body-elements">
+                                                     <li><a href="#">p</a></li>
+                                                     <li><a href="#">h1</a></li>
+                                                     <li><a href="#">a</a></li>
+                                                 </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                           </li>
+                       </ul>
+                </div>
+        </div>
+    </body>
+    </html>

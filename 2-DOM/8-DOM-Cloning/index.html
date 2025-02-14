@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="01-Cloning.js" defer></script>
+    <title>Cloning</title>
+</head>
+<body>
+<div class="container" id="home">
+    <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Mus mauris vitae ultricies leo integer malesuada. Pharetra pharetra massa massa ultricies. Congue
+        nisi vitae suscipit tellus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Nam aliquam sem et
+        tortor consequat id porta. Quam quisque id diam vel. Donec massa sapien faucibus et molestie. Sed odio morbi
+        quis commodo odio aenean sed. Amet est placerat in egestas erat.</p>
+    <button type="button">Clone</button>
+</div>
+</body>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .container{
+        max-width: 50%;
+        background-color: #0a0a0a;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: clamp(10px,30px,10%);
+        box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+        border-radius: 5px;
+    }
+    .container:before{
+        content: "";
+        width: 10px;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: #16C47F;
+        position: absolute;
+    }
+    h1{
+        color: #16C47F;
+        text-transform: uppercase;
+        font-family:"Segoe UI","ui-sans-serif";
+        font-size: 2rem ;
+        font-weight: bold;
+    }
+    p{
+        color: #f3f3f1;
+        font-family: "Arabic Typesetting","sans-serif";
+        font-size: 1.2rem;
+    }
+    button[type="button"]{
+        border: none;
+        outline: none;
+        background-color: #16C47F;
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .2s linear;
+    }
+    button[type="button"]:hover{
+        box-shadow: 0 0 50px 5px #16C47F;
+    }
+    button[type="button"]:active{
+
+    }
+
+</style>
+</html>
