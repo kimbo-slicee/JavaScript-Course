@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="01-SetTimeout.js" defer></script>
+    <script src="02-SetInTerval.js"></script>
+</head>
+<body>
+<div class="notificationCard">
+    <p class="notificationHeading">setTimeOut  Complited</p>
+    <svg class="bellIcon" viewBox="0 0 448 512"><path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path></svg>
+    <p class="notificationPara">Allow push notifications so you will get latest updates</p>
+</div>
+<div class="beforeTimeOut">
+    <p>Stop setTimeOut before it ben complited  </p>
+    <button class="clear">Clear TimeOut</button>
+</div>
+</body>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .notificationCard {
+        width: 220px;
+        height: 280px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+        background: rgb(245, 245, 245);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 35px;
+        gap: 10px;
+        border-radius: 20px;
+        position: absolute;
+        display: none;
+    }
+    .beforeTimeOut{
+        width: 50vw;
+        height: 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+        background: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bellIcon {
+        width: 50px;
+        margin: 20px 0;
+    }
+
+    .bellIcon path {
+        fill: rgb(168, 131, 255);
+    }
+
+    .notificationHeading {
+        color: black;
+        font-weight: 600;
+        font-size: 0.8em;
+    }
+
+    .notificationPara {
+        color: rgb(133, 133, 133);
+        font-size: 0.6em;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .clear {
+        width: 120px;
+        height: 35px;
+        background-color: rgb(168, 131, 255);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 0.7em;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .clear:hover {
+        background-color: rgb(153, 110, 255);
+    }
+
+</style>
+</html>

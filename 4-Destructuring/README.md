@@ -1,5 +1,5 @@
 <div align="center">
-<img src="" alt="Destructuring In JavaScript">
+
 </div>
 
 # What is Destructuring in JavaScript 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="01-Open-Close.js" defer></script>
+    <script src="03-Scroll-ScrollTo.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <span class="x">X=0</span>
+    <span class="y">Y=0</span>
+    <button type="button">ScrollBy 500</button>
+    <button type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg>
+    </button>
+</div>
+</body>
+<style>
+    body{
+        min-height: 500vh;
+        min-width:  100vw;
+        font-size:  2rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+    }
+    button{
+        outline: none;
+        border: none;
+        background-color: #23754e;
+        color: #f3f3f1;
+        padding: 2%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    button:nth-child(2n){
+        border-radius: 50%;
+        position: fixed;
+        bottom:20px;
+        right: 10px;
+        padding: 15px;
+        animation: toTop 1s ease-in-out infinite;
+        transition: all 1s linear;
+        display: none;
+    }
+    @keyframes toTop {
+    0%{
+       transform: translateY(-10px);
+    }50%{
+       transform: translateY(20px);
+    }
+    100%{
+       transform: translateY(-10px);
+        }
+    }
+
+</style>
+</html>

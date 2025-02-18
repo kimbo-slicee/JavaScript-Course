@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local and Session Storage</title>
+    <script src="01-Local-Storage.js" defer></script>
+    <script src="02-Session-Storage.js" defer></script>
+</head>
+<body>
+ <ul>
+     <li data-color="darkred"><a>red</a></li>
+     <li data-color="darkgreen"><a>green</a></li>
+     <li data-color="darkblue"><a>blue</a></li>
+     <li data-color="black"><a>black</a></li>
+ </ul>
+<div class="color-board"></div>
+</body>
+<style>
+    *{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+        min-height: 100vh;
+        width: 100%;
+    }
+    ul{
+        min-width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: gainsboro;
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    li{
+        color: white;
+        padding: 25px;
+        opacity: 0.5;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+    }
+    a{
+        position: absolute;
+        bottom: -25px;
+        color: black;
+        left: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: "Roboto Condensed",sans-serif;
+        font-size: 18px;
+    }
+    li:first-child{
+        background-color: darkred;
+    }
+    li:nth-child(2){
+        background-color: darkgreen;
+    }
+    li:nth-child(3){
+        background-color: darkblue;
+    }
+    li:last-child{
+        background-color: black;
+    }
+    .active{
+        opacity: 1;
+    }
+    .color-board{
+        min-width: 50vw;
+        min-height: 50vh;
+        background-color: darkred;
+        border-radius: 10px;
+        transition: background-color 1s linear;
+    }
+</style>
+</html>
