@@ -20,6 +20,24 @@ function showDetails(user){
 }
 console.log(showDetails(user));
 // let's use Destructuring
-function showDetailsDestructring({}){
-
+function showDetailsDestructuring({name:n,phone:p,skills:{HTML:h,CSS:c}}){
+    console.log(n)
+    console.log(p)
+    console.log(h)
+    console.log(c)
 }
+showDetailsDestructuring(user);
+const employ ={
+    theName:"John Doe",
+    theAge:22,
+    skills: ["HTML","CSS","JAVASCRIPT","TYPESCRIPT"],
+    address: {
+    address_one:"John Doe, 456 Elm Street, Suite 3",
+    address_Two:"Los Angeles, CA 90001, USA."
+    }
+}
+function distractEmploy({theName:name,theAge:age,skills:[a,b,c,d],address:{address_one:addOne,address_Two:addTwo}}) {
+    return `Hello I'm ${name} I ${age} Years Old.I'm The new Employ I live in ${addOne} ${addTwo} , I'm  passion about Coding my Skills are ${a}-${b}-${c}-${d}`
+}
+
+console.log(distractEmploy(employ))

@@ -1,6 +1,7 @@
-<p align="center">
+[//]: # (<p align="center">)
 
-</p>
+[//]: # ()
+[//]: # (</p>)
 
 
 ### Purposes of Creating This Course
