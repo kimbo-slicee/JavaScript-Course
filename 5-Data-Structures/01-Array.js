@@ -74,7 +74,27 @@ const inRange=(arr,range)=>{
     },range)
 }
 console.log("In range" + inRange(nums,range))
-
+/*
+* - Array.every Method
+* - Array.every(CallBackFunc(Element,index ,Array),this Argument)
+* ----> CallbackFunc => Function To Run On Every Element On the Given Array
+* -------> Element => The Current Element To Process
+* ----------> Index => Index of the Current Element
+* -------------> Array => The Current Array Working with
+* ---------------> this Argument => value To Use When Executing CallbackFunc
+*/
+const location={
+    20:"Place 1",
+    30:"Place 2",
+    40:"Place 3",
+    50:"Place 5",
+    10:"Place 6"
+}
+const set =new Set([location]);
+const locations=Object.keys(location);
+console.log(locations);
+const inLocation=locations.every((e)=>e>10);
+console.log(inLocation);// false
 
 
 

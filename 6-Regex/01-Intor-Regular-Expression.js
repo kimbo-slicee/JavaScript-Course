@@ -4,7 +4,7 @@
 * IP
 * Phone
 * URL
-* */
+*/
 let str_1="10 20 100 1000 500";
 let str_2="Os1 Os12 Os123 Os123Os";
 let invaidMail="user@@@@me_you.com";
