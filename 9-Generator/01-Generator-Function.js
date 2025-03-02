@@ -40,3 +40,46 @@ const generator = infinite(); // "Generator { }"
 console.log(generator.next().value); // 0
 console.log(generator.next().value); // 1
 console.log(generator.next().value); // 2
+
+function* showMore(){
+    const user={
+        name:"Me",
+        age:"22",
+        job:"Developer"
+    }
+    yield user.name;
+    yield user.age;
+    yield user.job;
+}
+
+const me =showMore()
+for (const value of showMore()) {
+    console.log(value)
+}
+// Generators are great for generating sequences dynamically.
+function* fibonacci() {
+    let a = 0, b = 1;
+    while (true) {
+        yield a;
+        [a, b] = [b, a + b];//Destructuring
+    }
+}
+
+const fib = fibonacci();
+console.log(fib.next().value)
+console.log(fib.next().value)
+console.log(fib.next().value)
+console.log(fib.next().value)
+console.log(fib.next().value)
+console.log(fib.next().value)
+// Implementing Custom Iterators
+const iterableObj = {
+    *[Symbol.iterator]() {
+        yield "Hello";
+        yield "World";
+    }
+};
+
+for (let word of iterableObj) {
+    console.log(word); // "Hello", "World"
+}
