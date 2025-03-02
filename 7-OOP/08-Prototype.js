@@ -1,7 +1,7 @@
  /*
 * - Introduction
-* - Prototypes are The Mechanism By which JavaScript Objects
-* - Inheritance Feature From One another
+*   Prototypes are The Mechanism By which JavaScript Objects
+*   Inheritance Feature From One another
 */
  class User {
     name;
