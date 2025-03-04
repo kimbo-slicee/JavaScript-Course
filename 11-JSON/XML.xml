@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+     <!-- XML Accept Comments -->
+    <comment>JSON file doesn't accept comment</comment>
+    <user>
+        <name>userName</name>
+        <age>0</age>
+        <address>Alabama</address>
+        <school>James Clemens High School</school>
+        <skills>HTML</skills>
+        <skills>CSS</skills>
+        <skills>JAVASCRIPT</skills>
+        <skills>TYPESCRIPT</skills>
+        <cars>
+            <BMW>
+                <model>2018</model>
+                <colors>Black</colors>
+            </BMW>
+            <Tesla>
+                <model>model s</model>
+                <color>red</color>
+            </Tesla>
+        </cars>
+    </user>
+    <book category="web" cover="paperback">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</root>
