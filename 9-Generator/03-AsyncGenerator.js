@@ -1,7 +1,7 @@
 /*
 * AsyncGenerator
 * The AsyncGenerator object is returned by an async generator function and it conforms to both the async iterable protocol and the async iterator protocol.
-* Async generator methods always yield Promise objects.
+* Async generator methods always yield 14-Promise objects.
 * AsyncGenerator is a subclass of the hidden AsyncIterator class.
 * syntax
 * async function * nameOfTheGenerator(){
@@ -14,7 +14,7 @@
 /*
 * Async generator iteration
 * The following example iterates over an async generator, logging values 1–6 to the console at decreasing time intervals.
-* Notice how each time a Promise is yielded, but it's automatically resolved within the for await...of loop.
+* Notice how each time a 14-Promise is yielded, but it's automatically resolved within the for await...of loop.
 */
 function delayedValue(time, value) {
     return new Promise((resolve) => {
